@@ -1,0 +1,32 @@
+{
+    "name": "adetoola/avatar",
+    "description": "Gmail-like default avatars using initials",
+    "type": "library",
+    "keywords": [
+        "adetoola",
+        "gmail",
+        "avatar",
+        "initials",
+        "name"
+
+    ],
+    "homepage": "https://github.com/adetoola/avatar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adetola Onasanya",
+            "email": "adetola@gmail.com",
+            "homepage": "http://rubyinteractive.com/",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "~5.5|~7.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Adetoola\\AVATAR\\": "src/"
+        }
+    }
+}
