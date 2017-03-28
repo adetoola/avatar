@@ -8,25 +8,29 @@
         "avatar",
         "initials",
         "name"
-
     ],
     "homepage": "https://github.com/adetoola/avatar",
     "license": "MIT",
     "authors": [
         {
             "name": "Adetola Onasanya",
-            "email": "adetola@gmail.com",
+            "email": "adetola.onasanya@gmail.com",
             "homepage": "http://rubyinteractive.com/",
             "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php" : "~5.5|~7.0",
+        "php" : "~7.0",
+        "intervention/image": "^2.3",
+        "intervention/imagecache": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
-            "Adetoola\\AVATAR\\": "src/"
+            "Adetoola\\Avatar\\": "src/"
         }
     }
 }
